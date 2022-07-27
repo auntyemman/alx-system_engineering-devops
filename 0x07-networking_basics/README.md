@@ -2,13 +2,13 @@
 
 OSI model by layer
 
-7.  Application layer
-6.  Presentation layer
-5.  Session layer
-4.  Transport layer
-3.  Network layer
-2.  Data link layer
-1.  Physical layer
+7  Application layer
+6  Presentation layer
+5  Session layer
+4  Transport layer
+3  Network layer
+2  Data link layer
+1  Physical layer
 
 The Open Systems Interconnection model (OSI model) is a conceptual model that describes the universal standard of communication functions of a telecommunication system or computing system, without any regard to the system's underlying internal technology and specific protocol suites. Therefore, the objective is the interoperability of all diverse communication systems containing standard communication protocols, through the encapsulation and de-encapsulation of data, for all networked communication. In the OSI reference model, the communications between a computing system are split into seven different abstraction layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.
 
@@ -16,12 +16,19 @@ The Open Systems Interconnection model (OSI model) is a conceptual model that de
 Common types of area networks are:
 
 **LAN**: Local Area Network
+
 **WAN**: Wide Area Network
+
 WLAN: Wireless Local Area Network
+
 MAN: Metropolitan Area Network
+
 SAN: Storage Area Network, System Area Network, Server Area Network, or sometimes Small Area Network
+
 CAN: Campus Area Network, Controller Area Network, or sometimes Cluster Area Network
+
 PAN: Personal Area Network
+
 **LAN** and **WAN** are the two primary and best-known categories of area networks, while the others have emerged with technology advances.
 
 # What is a MAC Address?
