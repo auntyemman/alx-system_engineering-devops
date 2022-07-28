@@ -14,8 +14,8 @@ Also, it can be used in client mode trying to connect on the port(2389) just ope
 
 Now, if we write some text at the client side, it reaches the server side. Here is the proof :
 
-```$ nc localhost 2389
-HI, server```
+```$ nc localhost 2389```
+```HI, server```
 
 On the terminal where server is running :
 
