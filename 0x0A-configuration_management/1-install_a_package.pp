@@ -1,13 +1,15 @@
 # Using Puppet to install flask from pip3
 
-include sys::git
+package { 'requests':
 
-venv_package { 'Flask@/srv/venv':
+  ensure          => '2.1.0',
 
-  ensure  => '2.1.0',
+  provider        => 'pipx',
 
-  source  => 'git+https://github.com/mitsuhiko/flask',
+  install_options => [
 
-  require => Class['sys::git'],
+    { '--index-url' => 'https://pypi.mycorp.com' },
+
+  ],
 
 }
