@@ -4,7 +4,7 @@ include sys::git
 
 venv_package { 'Flask@/srv/venv':
 
-  ensure  => '0.8.1',
+  ensure  => '2.1.0',
 
   source  => 'git+https://github.com/mitsuhiko/flask',
 
