@@ -1,4 +1,4 @@
-# Description of Puppet as Configuration Mananger
+# Description of Puppet as Configuration Manager
 
 Manages files, including their content, ownership, and permissions.
 
