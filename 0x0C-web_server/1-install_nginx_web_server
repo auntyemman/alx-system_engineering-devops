@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Install NGINX
+# Install NGINX.
 
 apt upate
 apt install -y nginx
