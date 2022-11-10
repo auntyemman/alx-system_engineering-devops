@@ -1,6 +1,5 @@
-# fix our stack so that we get to 0 errors
-exec { 'file limit':
-  onlyif   => 'test -e /etc/default/nginx',
-  command  => 'sed -i "5s/[0-9]\+/$( ulimit -n )/" /etc/default/nginx; service nginx restart',
-  provider => shell,
+# Fixing the number of failed requests to get to 0
+exec { 'fix--for-nginx':
+  command => "sed -i 's/worker_processes 4;/worker_processes 7;/g' /etc/nginx/nginx.conf; sudo service nginx restart",
+  path    => ['/bin', '/usr/bin', '/usr/sbin']
 }
